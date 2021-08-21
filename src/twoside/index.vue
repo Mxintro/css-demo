@@ -36,8 +36,8 @@
     background: #32cd99;
   }
 } */
-//
-.two-column-layout {
+//overflow + float
+/* .two-column-layout {
   height: 400px;
   width: 400px;
   .left {
@@ -47,8 +47,22 @@
     background-color: #f66;
   }
   .right {
-    margin-left: 100px;
+    overflow: hidden;
     height: 100%;
+    background: #32cd99;
+  }
+} */
+//flex
+.two-column-layout {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  .left {
+    width: 100px;
+    background-color: #f66;
+  }
+  .right {
+    flex: 1;
     background: #32cd99;
   }
 }
