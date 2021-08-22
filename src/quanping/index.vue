@@ -64,7 +64,7 @@
 
 <script>
 export default {
-  name: "quanping",
+  name: "fullscreen-layout",
   props: {
     done: {
       default: "Done",
