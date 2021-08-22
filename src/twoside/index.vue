@@ -57,6 +57,7 @@
   display: flex;
   height: 400px;
   width: 400px;
+  margin-top: 10px;
   .left {
     width: 100px;
     background-color: #f66;
