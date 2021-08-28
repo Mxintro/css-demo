@@ -1,10 +1,10 @@
 <template>
   <div class="app">
-    <quan-p></quan-p>
+    <!-- <quan-p></quan-p>
     <two-side></two-side>
     <three-layout></three-layout>
     <grail-layout></grail-layout>
-    <average-layout></average-layout>
+    <average-layout></average-layout> -->
     <center-layout></center-layout>
   </div>
 </template>
@@ -29,10 +29,10 @@ export default {
 </script>
 
 <style scoped lang='scss'>
-.app {
+/* .app {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   align-content: space-around;
-}
+} */
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div class="center-layout">
-    <div>xxxxxxx</div>
+    <div class="inner">xxxxxxx</div>
   </div>
 </template>
 
@@ -27,24 +27,39 @@
   width: 400px;
   height: 400px;
   background-color: #f66;
-  display: table-cell;
-  vertical-align: middle;
-  div {
+  .inner {
     width: 100px;
     height: 100px;
     background-color: #66f;
-    margin: auto;
   }
 }
 // table-cell
 /* .center-layout {
   display: table-cell;
   vertical-align: middle;
-  text-align: center;
-  div {
-    margin: auto;
+  .inner {
+    margin: 0 auto;
   }
 } */
+// position
+.center-layout {
+  position: relative;
+  .inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* margin: -50px 0 0 -50px; */
+    // 但是存在一个缺陷，若节点需额外使用transform，那么就比较麻烦了
+    transform: translate(-50%, -50%);
+  }
+}
+// flex
+.center-layout {
+  display: flex;
+  .inner {
+    margin: auto;
+  }
+}
 </style>
 
 <script>
