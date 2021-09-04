@@ -2,7 +2,9 @@
   <div class="app">
     <!-- <center-layout></center-layout> -->
     <!-- <text-wrapping></text-wrapping> -->
-    <text-ellipis />
+    <!-- <text-ellipis /> -->
+    <!-- <func-attr></func-attr> -->
+    <func-counter></func-counter>
   </div>
 </template>
 
@@ -15,6 +17,8 @@ import AverageLayout from "./average-layout";
 import CenterLayout from "./center-layout";
 import TextWrapping from "./text-wrapping";
 import TextEllipis from "./text-ellipsis";
+import FuncAttr from "./func-attr";
+import FuncCounter from "./func-counter";
 export default {
   components: {
     QuanP,
@@ -25,6 +29,8 @@ export default {
     CenterLayout,
     TextWrapping,
     TextEllipis,
+    FuncAttr,
+    FuncCounter,
   },
 };
 </script>
