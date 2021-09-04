@@ -1,11 +1,8 @@
 <template>
   <div class="app">
-    <!-- <quan-p></quan-p>
-    <two-side></two-side>
-    <three-layout></three-layout>
-    <grail-layout></grail-layout>
-    <average-layout></average-layout> -->
-    <center-layout></center-layout>
+    <!-- <center-layout></center-layout> -->
+    <!-- <text-wrapping></text-wrapping> -->
+    <text-ellipis />
   </div>
 </template>
 
@@ -16,6 +13,8 @@ import ThreeLayout from "./threelayout";
 import GrailLayout from "./grail-layout";
 import AverageLayout from "./average-layout";
 import CenterLayout from "./center-layout";
+import TextWrapping from "./text-wrapping";
+import TextEllipis from "./text-ellipsis";
 export default {
   components: {
     QuanP,
@@ -24,6 +23,8 @@ export default {
     GrailLayout,
     AverageLayout,
     CenterLayout,
+    TextWrapping,
+    TextEllipis,
   },
 };
 </script>
