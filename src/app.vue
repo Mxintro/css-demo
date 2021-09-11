@@ -4,7 +4,9 @@
     <!-- <text-wrapping></text-wrapping> -->
     <!-- <text-ellipis /> -->
     <!-- <func-attr></func-attr> -->
-    <func-counter></func-counter>
+    <!-- <func-counter></func-counter> -->
+    <!-- <strip-loading></strip-loading> -->
+    <heart-loading></heart-loading>
   </div>
 </template>
 
@@ -19,6 +21,8 @@ import TextWrapping from "./text-wrapping";
 import TextEllipis from "./text-ellipsis";
 import FuncAttr from "./func-attr";
 import FuncCounter from "./func-counter";
+import StripLoading from "./strip-loading";
+import HeartLoading from "./heart-loading";
 export default {
   components: {
     QuanP,
@@ -31,6 +35,8 @@ export default {
     TextEllipis,
     FuncAttr,
     FuncCounter,
+    StripLoading,
+    HeartLoading,
   },
 };
 </script>
