@@ -51,7 +51,7 @@
       background-color: #f66;
       animation: beat 1s ease-in-out infinite;
       animation-delay: var(--time);
-      /* animation-delay: calc((var(--line-index)-1) * 200ms); 这样出错，可能是打包出错 */
+      /* animation-delay: calc((var(--line-index)-1) * 200ms);/ 这样出错，可能是打包出错 */
       & + li {
         margin-left: 5px;
       }
