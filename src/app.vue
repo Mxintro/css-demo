@@ -6,7 +6,8 @@
     <!-- <func-attr></func-attr> -->
     <!-- <func-counter></func-counter> -->
     <!-- <strip-loading></strip-loading> -->
-    <heart-loading></heart-loading>
+    <!-- <heart-loading></heart-loading> -->
+    <show-down></show-down>
   </div>
 </template>
 
@@ -23,6 +24,7 @@ import FuncAttr from "./func-attr";
 import FuncCounter from "./func-counter";
 import StripLoading from "./strip-loading";
 import HeartLoading from "./heart-loading";
+import ShowDown from "./show-down";
 export default {
   components: {
     QuanP,
@@ -37,6 +39,7 @@ export default {
     FuncCounter,
     StripLoading,
     HeartLoading,
+    ShowDown,
   },
 };
 </script>
