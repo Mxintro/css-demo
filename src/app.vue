@@ -7,7 +7,8 @@
     <!-- <func-counter></func-counter> -->
     <!-- <strip-loading></strip-loading> -->
     <!-- <heart-loading></heart-loading> -->
-    <show-down></show-down>
+    <!-- <show-down></show-down> -->
+    <hover-tips></hover-tips>
   </div>
 </template>
 
@@ -25,6 +26,7 @@ import FuncCounter from "./func-counter";
 import StripLoading from "./strip-loading";
 import HeartLoading from "./heart-loading";
 import ShowDown from "./show-down";
+import HoverTips from "./hover-tips";
 export default {
   components: {
     QuanP,
@@ -40,6 +42,7 @@ export default {
     StripLoading,
     HeartLoading,
     ShowDown,
+    HoverTips,
   },
 };
 </script>
